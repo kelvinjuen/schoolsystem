@@ -1,0 +1,17 @@
+ <!-- Content Row -->
+            <div class="row">
+                <!-- Topbar Search -->
+                <form class="col-12 d-none d-sm-inline-block form-inline mx-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" method="post" id="form-search">
+                    <input type="hidden" name="_method" id="_method" value="GET">
+                    <div class="input-group">
+                        <input type="text" id="search-text" name="search-text" class="form-control  border-0 small" placeholder="Search Pupil" aria-label="Search" aria-describedby="basic-addon2">
+                        <input type="hidden" name="_method" id="_method" value="GET">
+                        <div class="input-group-append">
+                        <button type="submit" id="submit_card" class="btn btn-primary" data-toggle="modal" data-target=".search-modal">
+                            <i class="fas fa-search fa-sm"></i>
+                        </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- end content Row -->
